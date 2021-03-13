@@ -1,0 +1,13 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+# Rider ignored files
+/projectSettingsUpdater.xml
+/contentModel.xml
+/modules.xml
+/.idea.wgj-192-haunted-object.iml
+# Datasource local storage ignored files
+/../../../../../../../../:\Users\Marek\UnityProjects\wgj-192-haunted-object\.idea\.idea.wgj-192-haunted-object\.idea/dataSources/
+/dataSources.local.xml
+# Editor-based HTTP Client requests
+/httpRequests/

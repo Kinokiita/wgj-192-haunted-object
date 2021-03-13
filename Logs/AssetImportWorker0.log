@@ -1,0 +1,125 @@
+Using pre-set license
+Built from '2020.2/staging' branch; Version is '2020.2.7f1 (c53830e277f1) revision 12924976'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19041.867; Version 2004; 64bit' Language: 'en' Physical Memory: 32717 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Users\Marek\UnityProjects\2020.2.7f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Marek/UnityProjects/wgj-192-haunted-object
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+52532
+Successfully changed project path to: C:/Users/Marek/UnityProjects/wgj-192-haunted-object
+C:/Users/Marek/UnityProjects/wgj-192-haunted-object
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 30.67 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.2.7f1 (c53830e277f1)
+[Subsystems] Discovering subsystems at path C:/Users/Marek/UnityProjects/2020.2.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Marek/UnityProjects/wgj-192-haunted-object/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1080 Ti (ID=0x1b06)
+    Vendor:   
+    VRAM:     11127 MB
+    Driver:   27.21.14.5167
+Initialize mono
+Mono path[0] = 'C:/Users/Marek/UnityProjects/2020.2.7f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Users/Marek/UnityProjects/2020.2.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Users/Marek/UnityProjects/2020.2.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56676
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Users/Marek/UnityProjects/2020.2.7f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Users/Marek/UnityProjects/2020.2.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002635 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 33.70 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.049 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000993 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 33.64 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.784 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1809 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 84.6 MB.
+System memory in use after: 84.7 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2255.
+Total: 1.781800 ms (FindLiveObjects: 0.195900 ms CreateObjectMapping: 0.044300 ms MarkObjects: 1.470500 ms  DeleteObjects: 0.070100 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scenes/MainScene.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7607bccc992101b2b36dad3853078a1d') in 0.012946 seconds
+  Import took 0.015613 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.717415 seconds.
+  path: Assets/Prefabs
+  artifactKey: Guid(d69d511ca07313045969bd3ccbbd8d08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs using Guid(d69d511ca07313045969bd3ccbbd8d08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88b077e0ab602af954b9df3185f44ebd') in 0.004961 seconds
+  Import took 0.007701 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000511 seconds.
+  path: Assets/Prefabs
+  artifactKey: Guid(d69d511ca07313045969bd3ccbbd8d08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs using Guid(d69d511ca07313045969bd3ccbbd8d08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88b077e0ab602af954b9df3185f44ebd') in 0.004040 seconds
+  Import took 0.006653 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.442669 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(61153a06001272e40afaf044379b00c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(61153a06001272e40afaf044379b00c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '212488ec43f982cff2963294161c80f1') in 0.004860 seconds
+  Import took 0.007498 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000319 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(61153a06001272e40afaf044379b00c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(61153a06001272e40afaf044379b00c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '212488ec43f982cff2963294161c80f1') in 0.004288 seconds
+  Import took 0.006905 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.639342 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(73acacd9e78901641a5465671350473a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(73acacd9e78901641a5465671350473a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbda88b2a161bf0d9ea8465c9a699d16') in 0.022340 seconds
+  Import took 0.024983 seconds .
+
