@@ -17,13 +17,13 @@ namespace Player
 
         [SerializeField] private bool isSneaking;
         [SerializeField] private bool isIdle;
-
-        [SerializeField] private PlayerFace currentPlayerFace = PlayerFace.DOWN;
+        [SerializeField] private bool isFacingRight;
 
         private static readonly int IsRunning = Animator.StringToHash("isRunning");
         private static readonly int IsSneaking = Animator.StringToHash("isSneaking");
         private static readonly int IsIdle = Animator.StringToHash("isIdle");
-        private static readonly int AnimatorPlayerFace = Animator.StringToHash("playerFace");
+        private static readonly int Vertical = Animator.StringToHash("vertical");
+        private static readonly int Horizontal = Animator.StringToHash("horizontal");
 
         private Animator _animator;
         private Rigidbody2D _rigidbody2D;
@@ -71,55 +71,39 @@ namespace Player
         {
             // Move the character by finding the target velocity
             Vector2 velocity = _rigidbody2D.velocity;
-            float verticalVelocity = verticalMove * Time.fixedDeltaTime * movementSpeed;
-            float horizontalVelocity = horizontalMove * Time.fixedDeltaTime * movementSpeed;
+            Vector2 targetVelocity = new Vector2(horizontalMove, verticalMove).normalized;
             if (isSneaking)
             {
-                verticalVelocity *= _sneakSpeedMultiplier;
-                horizontalVelocity *= _sneakSpeedMultiplier;
+                targetVelocity *= _sneakSpeedMultiplier;
             }
 
-            Vector2 targetVelocity = new Vector2(horizontalVelocity, verticalVelocity);
+            targetVelocity *= (Time.fixedDeltaTime * movementSpeed);
+
             // And then smoothing it out and applying it to the character
             _rigidbody2D.velocity = Vector2.SmoothDamp(velocity, targetVelocity, ref _velocity, _movementSmoothing);
         }
 
         private void updatePlayerFace()
         {
-            resetAnimatorValues();
-            if (horizontalMove > 0.5F && Math.Abs(horizontalMove) >= Math.Abs(verticalMove))
+            if (Math.Abs(horizontalMove) > 0.1F || Math.Abs(verticalMove) > 0.1F)
             {
-                currentPlayerFace = PlayerFace.RIGHT;
                 isRunning = true;
-            }
-            else if (horizontalMove < -0.5F && Math.Abs(horizontalMove) >= Math.Abs(verticalMove))
-            {
-                currentPlayerFace = PlayerFace.LEFT;
-                isRunning = true;
-            }
-            else if (verticalMove > 0.5F && Math.Abs(verticalMove) >= Math.Abs(horizontalMove))
-            {
-                currentPlayerFace = PlayerFace.UP;
-                isRunning = true;
-            }
-            else if (verticalMove < -0.5F && Math.Abs(verticalMove) >= Math.Abs(horizontalMove))
-            {
-                currentPlayerFace = PlayerFace.DOWN;
-                isRunning = true;
+                isIdle = false;
             }
             else
             {
-                currentPlayerFace = PlayerFace.DOWN;
                 isIdle = true;
+                isRunning = false;
+            }
+
+            // Flip the character if the movement goes into the opposite side the character is currently facing
+            if (horizontalMove > 0 && isFacingRight || horizontalMove < 0 && !isFacingRight)
+            {
+                isFacingRight = !isFacingRight;
+                Flip();
             }
 
             applyAnimatorState();
-        }
-
-        private void resetAnimatorValues()
-        {
-            isRunning = false;
-            isIdle = false;
         }
 
         /// <summary>
@@ -130,15 +114,17 @@ namespace Player
             _animator.SetBool(IsRunning, isRunning);
             _animator.SetBool(IsIdle, isIdle);
             _animator.SetBool(IsSneaking, isSneaking);
-            _animator.SetInteger(AnimatorPlayerFace, currentPlayerFace.GetHashCode());
+            _animator.SetFloat(Vertical, verticalMove);
+            _animator.SetFloat(Horizontal, horizontalMove);
         }
 
-        private enum PlayerFace
+        private void Flip()
         {
-            UP,
-            RIGHT,
-            DOWN,
-            LEFT
+            // Multiply the player's x local scale by -1.
+            var transform1 = transform;
+            Vector3 theScale = transform1.localScale;
+            theScale.x *= -1;
+            transform1.localScale = theScale;
         }
     }
 }
