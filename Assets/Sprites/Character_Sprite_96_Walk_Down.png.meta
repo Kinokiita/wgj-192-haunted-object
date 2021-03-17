@@ -1,31 +1,31 @@
 fileFormatVersion: 2
-guid: a7fe3be3fcde3054ea1d7ae83c83db71
+guid: 1a737341ec924f14cab606270994b71f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5393801768660824214
-    second: Character_Sprite_96_Top_Walk_0
+      213: -1061569624499417871
+    second: Character_Sprite_96_Walk_Down_0
   - first:
-      213: 3432432936848038343
-    second: Character_Sprite_96_Top_Walk_1
+      213: 4808589212497111373
+    second: Character_Sprite_96_Walk_Down_1
   - first:
-      213: -5793689462633813409
-    second: Character_Sprite_96_Top_Walk_2
+      213: 369855538884044856
+    second: Character_Sprite_96_Walk_Down_2
   - first:
-      213: 3785853242116014183
-    second: Character_Sprite_96_Top_Walk_3
+      213: 6922464257167389515
+    second: Character_Sprite_96_Walk_Down_3
   - first:
-      213: 1658253484520054669
-    second: Character_Sprite_96_Top_Walk_4
+      213: -4425563549516168800
+    second: Character_Sprite_96_Walk_Down_4
   - first:
-      213: -6375720178116550889
-    second: Character_Sprite_96_Top_Walk_5
+      213: 6821985069323960644
+    second: Character_Sprite_96_Walk_Down_5
   - first:
-      213: 3198070567346266102
-    second: Character_Sprite_96_Top_Walk_6
+      213: -3657903515025902977
+    second: Character_Sprite_96_Walk_Down_6
   - first:
-      213: 5556956414996727195
-    second: Character_Sprite_96_Top_Walk_7
+      213: -6926459034644399929
+    second: Character_Sprite_96_Walk_Down_7
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -56,7 +56,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: -1
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -70,7 +70,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 96
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -92,7 +92,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 2
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -104,19 +104,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 2
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 2
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -127,13 +115,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Character_Sprite_96_Top_Walk_0
+      name: Character_Sprite_96_Walk_Down_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 96
-        height: 96
+        x: 31
+        y: 12
+        width: 37
+        height: 62
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,20 +129,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a6f09167edd5525b0800000000000000
-      internalID: -5393801768660824214
+      spriteID: 1fc0e5b0d0c8441f0800000000000000
+      internalID: -1061569624499417871
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Character_Sprite_96_Top_Walk_1
+      name: Character_Sprite_96_Walk_Down_1
       rect:
         serializedVersion: 2
-        x: 96
-        y: 0
-        width: 96
-        height: 96
+        x: 126
+        y: 12
+        width: 41
+        height: 63
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -162,20 +150,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7c99d2cf19372af20800000000000000
-      internalID: 3432432936848038343
+      spriteID: d496aa9696a8bb240800000000000000
+      internalID: 4808589212497111373
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Character_Sprite_96_Top_Walk_2
+      name: Character_Sprite_96_Walk_Down_2
       rect:
         serializedVersion: 2
-        x: 192
-        y: 0
-        width: 96
-        height: 96
+        x: 222
+        y: 12
+        width: 41
+        height: 63
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -183,20 +171,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f5aa9c8412ea89fa0800000000000000
-      internalID: -5793689462633813409
+      spriteID: 838e46d27adf12500800000000000000
+      internalID: 369855538884044856
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Character_Sprite_96_Top_Walk_3
+      name: Character_Sprite_96_Walk_Down_3
       rect:
         serializedVersion: 2
-        x: 288
-        y: 0
-        width: 96
-        height: 96
+        x: 318
+        y: 12
+        width: 41
+        height: 63
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -204,20 +192,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7600614277d0a8430800000000000000
-      internalID: 3785853242116014183
+      spriteID: b43fccaa098811060800000000000000
+      internalID: 6922464257167389515
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Character_Sprite_96_Top_Walk_4
+      name: Character_Sprite_96_Walk_Down_4
       rect:
         serializedVersion: 2
-        x: 384
-        y: 0
-        width: 96
-        height: 96
+        x: 415
+        y: 12
+        width: 39
+        height: 62
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -225,20 +213,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d8f1f5422cc430710800000000000000
-      internalID: 1658253484520054669
+      spriteID: 0a10c2c366d3592c0800000000000000
+      internalID: -4425563549516168800
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Character_Sprite_96_Top_Walk_5
+      name: Character_Sprite_96_Walk_Down_5
       rect:
         serializedVersion: 2
-        x: 480
-        y: 0
-        width: 96
-        height: 96
+        x: 510
+        y: 12
+        width: 41
+        height: 63
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -246,20 +234,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 71f921c2744e487a0800000000000000
-      internalID: -6375720178116550889
+      spriteID: 441c210b64f8cae50800000000000000
+      internalID: 6821985069323960644
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Character_Sprite_96_Top_Walk_6
+      name: Character_Sprite_96_Walk_Down_6
       rect:
         serializedVersion: 2
-        x: 576
-        y: 0
-        width: 96
-        height: 96
+        x: 606
+        y: 12
+        width: 41
+        height: 63
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -267,20 +255,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6ff5e45ac34d16c20800000000000000
-      internalID: 3198070567346266102
+      spriteID: f727a3c22248c3dc0800000000000000
+      internalID: -3657903515025902977
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Character_Sprite_96_Top_Walk_7
+      name: Character_Sprite_96_Walk_Down_7
       rect:
         serializedVersion: 2
-        x: 672
-        y: 0
-        width: 96
-        height: 96
+        x: 702
+        y: 12
+        width: 41
+        height: 63
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -288,8 +276,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b95453cda664e1d40800000000000000
-      internalID: 5556956414996727195
+      spriteID: 7c8b9b8b43640ef90800000000000000
+      internalID: -6926459034644399929
       vertices: []
       indices: 
       edges: []

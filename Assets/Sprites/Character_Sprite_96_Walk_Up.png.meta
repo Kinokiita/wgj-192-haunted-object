@@ -1,31 +1,31 @@
 fileFormatVersion: 2
-guid: 6b93313bca6f0f3438d1a7a1a170d4a3
+guid: 4268cd7d0e8da5243abb8971949877bd
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1731023344025421272
-    second: Character_Sprite_96_0
+      213: -6861702392624187700
+    second: Character_Sprite_96_Walk_Up_0
   - first:
-      213: 1354488137385101922
-    second: Character_Sprite_96_1
+      213: -7452199208863107756
+    second: Character_Sprite_96_Walk_Up_1
   - first:
-      213: -8253578474349753069
-    second: Character_Sprite_96_2
+      213: 6026776525100185111
+    second: Character_Sprite_96_Walk_Up_2
   - first:
-      213: -1921086413808710467
-    second: Character_Sprite_96_3
+      213: -2713187875770202163
+    second: Character_Sprite_96_Walk_Up_3
   - first:
-      213: 1896856078333033864
-    second: Character_Sprite_96_4
+      213: -1836426504652661475
+    second: Character_Sprite_96_Walk_Up_4
   - first:
-      213: 363225363412470683
-    second: Character_Sprite_96_5
+      213: -5568380108372457418
+    second: Character_Sprite_96_Walk_Up_5
   - first:
-      213: -4008026871167655137
-    second: Character_Sprite_96_6
+      213: -5156229024084739753
+    second: Character_Sprite_96_Walk_Up_6
   - first:
-      213: 8907216419399048806
-    second: Character_Sprite_96_7
+      213: -889939353836636265
+    second: Character_Sprite_96_Walk_Up_7
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -56,7 +56,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: -1
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -92,7 +92,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 2
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -104,19 +104,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 2
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 2
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -127,169 +115,169 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Character_Sprite_96_0
+      name: Character_Sprite_96_Walk_Up_0
       rect:
         serializedVersion: 2
-        x: 21
-        y: 11
-        width: 49
-        height: 66
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 82ab471a07b2af7e0800000000000000
-      internalID: -1731023344025421272
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Character_Sprite_96_1
-      rect:
-        serializedVersion: 2
-        x: 120
+        x: 32
         y: 11
         width: 39
         height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 26ac159d8cb1cc210800000000000000
-      internalID: 1354488137385101922
+      spriteID: cc6ff2d570656c0a0800000000000000
+      internalID: -6861702392624187700
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Character_Sprite_96_2
+      name: Character_Sprite_96_Walk_Up_1
       rect:
         serializedVersion: 2
-        x: 223
+        x: 127
         y: 11
-        width: 32
-        height: 64
+        width: 40
+        height: 65
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 31d829e5b16657d80800000000000000
-      internalID: -8253578474349753069
+      spriteID: 45574409d48749890800000000000000
+      internalID: -7452199208863107756
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Character_Sprite_96_3
+      name: Character_Sprite_96_Walk_Up_2
       rect:
         serializedVersion: 2
-        x: 318
-        y: 15
-        width: 34
-        height: 63
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: dbc4a12c51ee655e0800000000000000
-      internalID: -1921086413808710467
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Character_Sprite_96_4
-      rect:
-        serializedVersion: 2
-        x: 405
+        x: 222
         y: 11
-        width: 49
-        height: 66
+        width: 41
+        height: 65
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 88db413ad8cf25a10800000000000000
-      internalID: 1896856078333033864
+      spriteID: 716724f715963a350800000000000000
+      internalID: 6026776525100185111
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Character_Sprite_96_5
+      name: Character_Sprite_96_Walk_Up_3
       rect:
         serializedVersion: 2
-        x: 504
+        x: 320
         y: 11
         width: 39
         height: 65
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b9bcc972b8f6a0500800000000000000
-      internalID: 363225363412470683
+      spriteID: dc702d78002d85ad0800000000000000
+      internalID: -2713187875770202163
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Character_Sprite_96_6
+      name: Character_Sprite_96_Walk_Up_4
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 11
+        width: 41
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1dd016e2d3b386e0800000000000000
+      internalID: -1836426504652661475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_Sprite_96_Walk_Up_5
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 11
+        width: 40
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 638cb124bc329b2b0800000000000000
+      internalID: -5568380108372457418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_Sprite_96_Walk_Up_6
       rect:
         serializedVersion: 2
         x: 606
         y: 11
-        width: 33
-        height: 64
+        width: 39
+        height: 65
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f13e4ddcbc0a068c0800000000000000
-      internalID: -4008026871167655137
+      spriteID: 759bede75056178b0800000000000000
+      internalID: -5156229024084739753
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Character_Sprite_96_7
+      name: Character_Sprite_96_Walk_Up_7
       rect:
         serializedVersion: 2
         x: 702
-        y: 15
-        width: 35
-        height: 62
+        y: 11
+        width: 40
+        height: 65
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 66e9ec7142acc9b70800000000000000
-      internalID: 8907216419399048806
+      spriteID: 7973dee6fdc46a3f0800000000000000
+      internalID: -889939353836636265
       vertices: []
       indices: 
       edges: []
