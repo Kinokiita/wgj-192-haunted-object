@@ -53,10 +53,12 @@ namespace Player
             if (Input.GetButtonDown("Sneaking"))
             {
                 isSneaking = true;
+                _animator.speed = 0.5F;
             }
             else if (Input.GetButtonUp("Sneaking"))
             {
                 isSneaking = false;
+                _animator.speed = 1;
             }
         }
 
